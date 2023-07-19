@@ -8,7 +8,7 @@ class DogShopSerializer(serializers.ModelSerializer):
             'id',
             'name',
             'price',
-            'breed'
+            'breed',
             'description',
         ]
 

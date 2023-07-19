@@ -20,6 +20,6 @@ from DogApp.views import DogList, DogDetails
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/dogshop', DogList.as_view()),
-    path('api/dogshop/<int:pk>/', DogDetails.as_view()),
+    path('api/dogs/', DogList.as_view()),
+    path('api/dogs/<int:pk>/', DogDetails.as_view()),
 ]
